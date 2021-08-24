@@ -4,7 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include <libinit_kona.h>
+#include <libinit_dalvik_heap.h>
+#include <libinit_variant.h>
+
+#include "vendor_init.h"
 
 static const variant_info_t apollocn_info = {
     .hwc_value = "CN",
@@ -14,7 +17,6 @@ static const variant_info_t apollocn_info = {
     .device = "apollo",
     .marketname = "K30S Ultra",
     .model = "M2007J3SC",
-    .build_description = "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
     .build_fingerprint = "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
 
     .nfc = true,
@@ -28,7 +30,6 @@ static const variant_info_t apollo_info = {
     .device = "apollo",
     .marketname = "Mi 10T",
     .model = "M2007J3SY",
-    .build_description = "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
     .build_fingerprint = "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
 
     .nfc = true,
@@ -42,7 +43,6 @@ static const variant_info_t apollopro_info = {
     .device = "apollo",
     .marketname = "Mi 10T Pro",
     .model = "M2007J3SG",
-    .build_description = "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
     .build_fingerprint = "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
 
     .nfc = true,
