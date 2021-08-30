@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
 # Inherit some common PPUI stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier
 PRODUCT_NAME := aosp_apollo
