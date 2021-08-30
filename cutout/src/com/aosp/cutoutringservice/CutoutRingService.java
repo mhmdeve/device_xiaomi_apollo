@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 ArrowOS
+ * Copyright (C) 2021 PPUI
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.arrow.cutoutringservice.apollo;
+package com.aosp.cutoutringservice.apollo;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
