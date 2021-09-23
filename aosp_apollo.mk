@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/apollo/device.mk)
 # Inherit some common ArrowOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Inherit GoogleCamera
+$(call inherit-product, vendor/GoogleCamera/config.mk)
+
 # Inherit some common PixelExperience stuff
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -24,7 +27,7 @@ IS_PHONE := true
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
-PRODUCT_NAME := arrow_apollo
+PRODUCT_NAME := aosp_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi

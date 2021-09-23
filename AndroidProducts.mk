@@ -9,5 +9,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     aosp_apollo-user \
-    asop_apollo-userdebug \
+    aosp_apollo-userdebug \
     aosp_apollo-eng
