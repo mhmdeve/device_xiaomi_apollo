@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The PixelExperienceOS Project
+# Copyright (C) 2021 The AOSP Extended Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
