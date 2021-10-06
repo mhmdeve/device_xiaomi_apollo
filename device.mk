@@ -114,6 +114,8 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     libvolumelistener
 
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/sm8250/audio
+
 # Audio configs
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -192,6 +194,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@2.0.vendor \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor
+
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sm8250/display
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -273,6 +277,8 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
+
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sm8250/media
 
 # Net
 PRODUCT_PACKAGES += \
@@ -373,7 +379,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/qcom-caf/sm8250
 
 # Telephony
 PRODUCT_PACKAGES += \
