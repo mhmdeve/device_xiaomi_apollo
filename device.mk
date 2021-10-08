@@ -249,6 +249,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_kona
 
+# Logs
+PRODUCT_PACKAGES += \
+    init.logcat.rc
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
