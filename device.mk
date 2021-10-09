@@ -247,9 +247,6 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
-# Kernel
-PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/apollo-kernel/kernel-headers
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_kona
