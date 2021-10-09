@@ -248,10 +248,6 @@ PRODUCT_PACKAGES += \
     liboffloadhal
 
 # Kernel
-LOCAL_KERNEL := device/xiaomi/apollo-kernel/kernel
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
-
 PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/apollo-kernel/kernel-headers
 
 # Lights
