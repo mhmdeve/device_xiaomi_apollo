@@ -30,9 +30,5 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     CutoutRingServiceApollo
 
-# Keyhandler
-PRODUCT_PACKAGES += \
-    KeyHandler
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/apollo/apollo-vendor.mk)
