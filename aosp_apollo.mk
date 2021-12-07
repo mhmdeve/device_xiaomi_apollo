@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/apollo/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit GoogleCamera
-#$(call inherit-product, vendor/GoogleCamera/config.mk)
+$(call inherit-product, vendor/GoogleCamera/config.mk)
 
 # Inherit some common PixelExperience stuff
 TARGET_USES_AOSP_RECOVERY := true
